@@ -169,9 +169,3 @@ G = 1.0  # Aumentar = fuerzas gravitacionales más fuertes
 ```python
 animacion = FuncAnimation(fig, animar, interval=0)  # interval=0 = velocidad máxima
 ```
-
-Este proyecto es de código abierto y puede ser usado con fines educativos y de investigación.
-
----
-
-*Desarrollado como herramienta educativa para el estudio de la mecánica celestial y sistemas dinámicos.*
