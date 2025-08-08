@@ -1,7 +1,6 @@
 # Simulación del Problema de los 3 Cuerpos
-### johan garcia
-### joya
-### santiago
+### Realizado por:  joya, santiago, johan garcia
+
 
 Este proyecto implementa una simulación interactiva del famoso **problema de los 3 cuerpos** en mecánica celestial, utilizando Python y visualización en tiempo real.
 
