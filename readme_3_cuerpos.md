@@ -1,12 +1,15 @@
 # Simulación del Problema de los 3 Cuerpos
+### johan garcia
+### joya
+### santiago
 
 Este proyecto implementa una simulación interactiva del famoso **problema de los 3 cuerpos** en mecánica celestial, utilizando Python y visualización en tiempo real.
 
-## 📋 Descripción
+##  Descripción
 
 El problema de los 3 cuerpos es un problema clásico de la mecánica celestial que estudia el movimiento de tres objetos masivos bajo la influencia de su mutua atracción gravitacional. A diferencia del problema de 2 cuerpos (que tiene solución analítica), el problema de 3 cuerpos es caótico y requiere métodos numéricos para su resolución.
 
-## 🔬 Física y Matemáticas Implementadas
+##  Física y Matemáticas Implementadas
 
 ### Ley de Gravitación Universal de Newton
 
@@ -53,14 +56,14 @@ v(t + Δt) = v(t) + a(t) * Δt
 x(t + Δt) = x(t) + v(t) * Δt
 ```
 
-## 🚀 Características
+##  Características
 
 - **Simulación en tiempo real**: Visualización animada del movimiento orbital
 - **Trazado de órbitas**: Muestra las trayectorias históricas de cada cuerpo
 - **Colores diferenciados**: Cada planeta tiene su propio color para fácil identificación
 - **Física realista**: Implementación precisa de las leyes de Newton y gravitación
 
-## 📦 Requisitos
+##  Requisitos
 
 ### Dependencias de Python
 
@@ -68,7 +71,7 @@ x(t + Δt) = x(t) + v(t) * Δt
 matplotlib>=3.5.0
 ```
 
-## 🛠️ Instalación y Ejecución
+##  Instalación y Ejecución
 
 ### En Linux (Ubuntu/Debian)
 
@@ -140,7 +143,7 @@ conda install matplotlib
 python 3-Cuerpos.py
 ```
 
-## ⚙️ Configuración del Sistema
+## Configuración del Sistema
 
 ### Configuración Inicial por Defecto
 
@@ -165,13 +168,13 @@ Donde:
 - `masa`: Masa del planeta (afecta la gravitación)
 - `vx, vy`: Velocidad inicial en x e y
 
-## 🎮 Controles
+##  Controles
 
 - **Cerrar ventana**: Detiene la simulación
 - La simulación corre automáticamente al ejecutar el script
 - No hay controles interactivos durante la ejecución
 
-## 🔧 Parámetros Ajustables
+## Parámetros Ajustables
 
 ### Paso de Tiempo (dt)
 ```python
@@ -187,57 +190,6 @@ G = 1.0  # Aumentar = fuerzas gravitacionales más fuertes
 ```python
 animacion = FuncAnimation(fig, animar, interval=0)  # interval=0 = velocidad máxima
 ```
-
-## 🐛 Solución de Problemas
-
-### Error: "No module named 'matplotlib'"
-```bash
-pip install matplotlib
-# o en algunos sistemas:
-pip3 install matplotlib
-```
-
-### Error: "python command not found" (Linux)
-```bash
-sudo apt install python3
-# Usar python3 en lugar de python
-```
-
-### La simulación se ejecuta muy lenta
-- Aumenta el valor de `dt` (ej: `dt = 0.05`)
-- Reduce el intervalo de animación: `interval=50`
-
-### Los planetas se escapan del sistema
-- Reduce las velocidades iniciales
-- Aumenta las masas de los planetas
-- Ajusta las posiciones iniciales
-
-## 📚 Conceptos Educativos
-
-Este simulador es excelente para entender:
-
-- **Mecánica celestial**: Cómo interactúan gravitacionalmente los cuerpos
-- **Sistemas caóticos**: El comportamiento impredecible a largo plazo
-- **Métodos numéricos**: Integración de ecuaciones diferenciales
-- **Conservación de energía**: Aunque no se muestre explícitamente
-- **Física computacional**: Implementación de leyes físicas en código
-
-## 📖 Referencias
-
-- Newton, I. "Principia Mathematica" (1687)
-- Poincaré, H. "Les méthodes nouvelles de la mécanique céleste" (1892-1899)
-- Problema de los 3 cuerpos: https://en.wikipedia.org/wiki/Three-body_problem
-
-## 🤝 Contribuciones
-
-Si deseas mejorar el código:
-1. Implementar métodos de integración más precisos (Runge-Kutta)
-2. Añadir conservación de energía y momento angular
-3. Implementar detección de colisiones
-4. Agregar más configuraciones iniciales famosas
-5. Crear una interfaz gráfica para modificar parámetros
-
-## 📄 Licencia
 
 Este proyecto es de código abierto y puede ser usado con fines educativos y de investigación.
 
