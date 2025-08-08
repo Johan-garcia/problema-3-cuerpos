@@ -90,26 +90,6 @@ pip3 install matplotlib
 python3 3-Cuerpos.py
 ```
 
-### En Linux (CentOS/RHEL/Fedora)
-
-1. **Instalar Python y pip**:
-```bash
-# Para CentOS/RHEL
-sudo yum install python3 python3-pip
-
-# Para Fedora
-sudo dnf install python3 python3-pip
-```
-
-2. **Instalar matplotlib**:
-```bash
-pip3 install matplotlib
-```
-
-3. **Ejecutar la simulación**:
-```bash
-python3 3-Cuerpos.py
-```
 
 ### En Windows
 
